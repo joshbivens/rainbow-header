@@ -6,7 +6,7 @@ const borders = document.querySelector('.borders');
 const border = [...document.querySelectorAll('.border')];
 
 window.onscroll = () => {
-  
+
   // Shrink Header/Borders
   if(body.scrollTop > 100) {
     header.classList.add('shrink');
@@ -21,7 +21,7 @@ window.onscroll = () => {
   }
 
   // Sticky Borders
-  body.scrollTop > 600 ? border[0].style.display = "block" : border[0].style.display = "none";
-  body.scrollTop > 1300 ? border[1].style.display = "block" : border[1].style.display = "none";
-  body.scrollTop > 2000 ? border[2].style.display = "block" : border[2].style.display = "none";
+  body.scrollTop > 620 ? border[0].style.display = "block" : border[0].style.display = "none";
+  body.scrollTop > 1320 ? border[1].style.display = "block" : border[1].style.display = "none";
+  body.scrollTop > 2020 ? border[2].style.display = "block" : border[2].style.display = "none";
 }
