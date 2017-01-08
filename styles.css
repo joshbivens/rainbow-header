@@ -1,0 +1,106 @@
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { 
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s ease;
+}
+
+header h1 {
+  margin: 30px;
+  letter-spacing: -1px;
+  transition: 0.3s ease-out;
+}
+
+header ul {
+  margin: 40px 40px 0 0;
+  transition: 0.3s ease-out;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 40px; 
+}
+
+.shrink {
+  height: 60px;
+}
+
+.shrink-logo {
+  margin-top: 10px;
+}
+
+.shrink-nav {
+  margin-top: 20px;
+}
+
+.shrink-borders {
+  margin-top: 60px !important;
+}
+
+section {
+  height: 700px;
+}
+
+section:nth-child(3) {
+  background: hotpink;
+}
+
+section:nth-child(4) {
+  background: deeppink;
+}
+
+section:nth-child(5) {
+  background: crimson;
+}
+
+section:nth-child(6) {
+  background: darkred;
+}
+
+section:nth-child(7) {
+  background: #000;
+}
+
+.borders {
+  position: fixed;
+  width: 100%;
+  margin-top: 100px;
+  transition: 0.3s ease-out;
+
+}
+
+.border {
+  width: 100%;
+  height: 7px;
+  display: none;
+  z-index: 100;
+}
+
+.border:nth-child(1) {
+  background: hotpink;
+}
+
+.border:nth-child(2) {
+  background: deeppink;
+}
+
+.border:nth-child(3) {
+  background: crimson;
+}
+
+.border:nth-child(4) {
+  background: darkred;
+}
